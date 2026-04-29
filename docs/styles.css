@@ -1,0 +1,516 @@
+/* =========================================================
+   THEME TOKENS (one source of truth)
+   ========================================================= */
+:root{
+  /* Brand / accents */
+  --accent: #1f6feb;           /* primary links / UI */
+  --accent-2: #0ea5e9;         /* hover / secondary */
+  --accent-ochre: #c49a3a;     /* warm academic ochre */
+
+  /* Neutrals */
+  --ink: #0b1220;              /* headings */
+  --muted: #52606d;            /* body text */
+  --bg: #ffffff;
+  --bg-soft: #f5f7fb;          /* optional soft backgrounds */
+  --border: rgba(15,23,42,.12);
+}
+
+/* =========================================================
+   BASE
+   ========================================================= */
+body { color: var(--muted); }
+h1, h2, h3, h4 { color: var(--ink); }
+
+a { color: var(--accent); }
+a:hover { color: var(--accent-2); }
+
+footer {
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  opacity: 0.7;
+}
+
+/* =========================================================
+   NAV
+   ========================================================= */
+.navbar { font-weight: 600; }
+.navbar-brand img { max-height: 34px; }
+
+/* If you don't want Quarto's title banner anywhere */
+.quarto-title-banner { display: none; }
+
+/* =========================================================
+   TYPOGRAPHY ACCENTS (site-wide)
+   ========================================================= */
+.accent {
+  color: var(--accent-ochre);
+  font-weight: 600;
+}
+
+/* Section headings: subtle academic style */
+main h2 {
+  border-left: 4px solid var(--accent-ochre);
+  padding-left: 0.75rem;
+  border-bottom: none;
+}
+
+main h3 { color: #444; }
+
+/* Lists: keep markers visible + ochre */
+main ul li::marker { color: var(--accent-ochre); }
+
+/* If your theme hides bullets, uncomment these:
+main ul { list-style: disc; padding-left: 1.25rem; }
+main li { margin-bottom: 0.25rem; }
+*/
+
+/* =========================================================
+   HOMEPAGE SMALL ACCENT
+   ========================================================= */
+.home-separator {
+  width: 60px;
+  height: 4px;
+  background-color: var(--accent-ochre);
+  margin: 2.5rem auto 2rem auto;
+  border-radius: 2px;
+}
+
+/* =========================================================
+   CARDS (homepage + generic)
+   ========================================================= */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.card{
+  padding: 1rem;
+  border-radius: 1rem;
+  border: 1px solid #e6e6e6;
+  background: var(--bg);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04);
+}
+
+.cards .card h3 { margin-top: 0; }
+
+/* Small ochre tick above card titles */
+.card h3::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 3px;
+  background-color: var(--accent-ochre);
+  margin-bottom: 0.5rem;
+}
+
+/* =========================================================
+   PEOPLE (people.qmd)
+   ========================================================= */
+
+/* Simple grid (if you use it elsewhere) */
+.people-grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.person{
+  padding: 1rem;
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  background: var(--bg);
+  text-align: center;
+}
+
+.person-affiliation{
+  font-size: 0.75rem;
+  color: #7b8794;
+  margin-bottom: 6px;
+}
+
+.headshot{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 999px;
+  border: 2px solid rgba(31,111,235,.25);
+  margin-bottom: .90rem;
+}
+
+.role{
+  font-size: .9rem;
+  color: var(--muted);
+}
+
+/* Editorial person cards */
+.people-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  clear: both;
+  overflow: auto;
+}
+
+.person-card {
+  display: grid;
+  grid-template-columns: 160px 1fr;
+  gap: 16px;
+  align-items: center;
+  border-radius: 5px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 16px;
+}
+
+.person-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.person-photo {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+}
+
+.person-role {
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  color: #888;
+  margin-bottom: 6px;
+}
+
+.person-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #4a4f55;
+}
+
+.person-topics {
+  font-size: 0.75rem;
+  line-height: 1.45;
+  color: #555;
+}
+
+/* =========================================================
+   HERO (homepage)
+   ========================================================= */
+.hero {
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  min-height: 50vh;
+  height: 55vh;
+  max-height: 550px;
+  overflow: hidden;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  filter: brightness(0.75);
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  color: #fff;
+}
+
+.hero-overlay .hero-inner {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.hero-title {
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 600;
+  opacity: 0.92;
+  margin: 0 0 0.4rem 0;
+}
+
+.hero-title .t-strong {
+  color: #fff;
+  font-weight: 750;
+}
+
+.hero-title .t-soft {
+  color: rgba(255,255,255,0.8);
+  font-weight: 600;
+}
+
+.hero-tagline {
+  font-size: 1.05rem;
+  max-width: 42rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.hero-cta { margin-top: 1rem; }
+.hero-cta .btn { margin-right: 0.5rem; }
+
+/* =========================================================
+   BUTTONS (ochre variants)
+   ========================================================= */
+.btn-ochre {
+  background-color: var(--accent-ochre);
+  border: 2px solid var(--accent-ochre);
+  color: #fff;
+}
+
+.btn-ochre:hover {
+  background-color: #b08a2e;
+  border-color: #b08a2e;
+}
+
+.btn-ochre-outline {
+  background: transparent;
+  color: var(--accent-ochre);
+  border: 2px solid var(--accent-ochre);
+}
+
+.btn-ochre-outline:hover {
+  background-color: var(--accent-ochre);
+  color: #fff;
+}
+
+/* =========================================================
+   RESPONSIVE
+   ========================================================= */
+@media (max-width: 768px) {
+  .hero { height: 300px; }
+  .hero-overlay .hero-inner { padding: 0 1.25rem; }
+
+  .people-cards {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+/* Full-width professional footer */
+.site-footer{
+  position: relative;
+  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+
+  margin-top: 4rem;
+  padding: 3.5rem 1.5rem 2rem;
+
+  background: #e9edf2;
+  border-top: 1px solid var(--border);
+}
+
+/* Optional: small brand accent line */
+.site-footer::before{
+  content:"";
+  display:block;
+  width: 84px;
+  height: 3px;
+  background: var(--accent-ochre);
+  margin: 0 auto 2.25rem auto;
+  border-radius: 2px;
+  opacity: .95;
+}
+
+.footer-inner{
+  max-width: 1200px;
+  margin: 0 auto 2rem auto;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2.25rem;
+  align-items: start;
+}
+
+.footer-block{ min-width: 0; }
+
+.footer-title{
+  color: var(--ink);
+  font-weight: 700;
+  font-size: .85rem;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  margin-bottom: .75rem;
+}
+
+.footer-text{
+  color: #4d5966;
+  font-size: .92rem;
+  line-height: 1.55;
+  margin: .15rem 0;
+}
+
+/* Compact nav links */
+.footer-links{
+  display: grid;
+  gap: .4rem;
+}
+
+.footer-link,
+.footer-links a{
+  color: #4d5966;
+  text-decoration: none;
+}
+
+.footer-link:hover,
+.footer-links a:hover{
+  color: var(--accent-ochre);
+  text-decoration: none;
+}
+
+/* Bottom meta row */
+.footer-meta{
+  max-width: 1200px;
+  margin: 0 auto;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: .5rem;
+
+  justify-content: center;
+  color: #7b8794;
+  font-size: .78rem;
+}
+
+.footer-dot{ opacity: .7; }
+
+/* Mobile refinements */
+@media (max-width: 768px){
+  .site-footer{
+    padding: 3rem 1.25rem 1.75rem;
+  }
+  .footer-meta{
+    justify-content: flex-start;
+  }
+}
+
+/* Random */
+.recruiting{
+  grid-column: 1 / -1;
+  margin-top: 3rem;
+}
+
+/* =========================================================
+   PROJECTS
+   ========================================================= */
+
+/* Projects / Research cards */
+.project-cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.project-card{
+  background: #fff;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 1.25rem 1.25rem 1.1rem;
+  transition: transform .15s ease, box-shadow .15s ease, border-color .15s ease;
+  min-width: 0;
+}
+
+.project-card:hover{
+  transform: translateY(-2px);
+  box-shadow: 0 10px 28px rgba(16, 24, 40, 0.10);
+  border-color: rgba(16, 24, 40, 0.18);
+}
+
+.project-title{
+  color: var(--ink);
+  font-weight: 750;
+  font-size: 1.02rem;
+  line-height: 1.25;
+  margin: 0 0 .5rem 0;
+}
+
+.project-text{
+  color: #4d5966;
+  font-size: .95rem;
+  line-height: 1.55;
+  margin: 0 0 .9rem 0;
+}
+
+/* Optional: small "meta" line (methods, collaborators, etc.) */
+.project-meta{
+  color: #7b8794;
+  font-size: .82rem;
+  margin: 0 0 .75rem 0;
+}
+
+/* Tags */
+.project-tags{
+  display: flex;
+  flex-wrap: wrap;
+  gap: .45rem;
+  margin-top: .25rem;
+}
+
+.project-tags span{
+  display: inline-block;
+  padding: .25rem .55rem;
+  border-radius: 999px;
+  border: 1px solid rgba(16, 24, 40, 0.12);
+  background: rgba(16, 24, 40, 0.03);
+  color: #4d5966;
+  font-size: .78rem;
+  line-height: 1;
+}
+
+/* Clickable card variant */
+.project-card-link{
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.project-image{
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: .85rem;
+}
+
+.project-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.project-image.placeholder{
+  background: linear-gradient(
+    135deg,
+    rgba(16, 24, 40, 0.04),
+    rgba(16, 24, 40, 0.08)
+  );
+  border: 1px dashed rgba(16, 24, 40, 0.15);
+}
+
+/* Mobile tweaks */
+@media (max-width: 768px){
+  .project-cards{
+    gap: 1.1rem;
+  }
+  .project-card{
+    padding: 1.1rem 1.1rem 1rem;
+  }
+}

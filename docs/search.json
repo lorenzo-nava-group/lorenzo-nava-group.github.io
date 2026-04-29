@@ -1,0 +1,114 @@
+[
+  {
+    "objectID": "people.html",
+    "href": "people.html",
+    "title": "People",
+    "section": "",
+    "text": "AI+ Academic Senior Fellow at King's College London\n    Lorenzo Nava\n    \n      Deep Learning, Remote Sensing, and Numerical Modelling for geohazard prediction and response"
+  },
+  {
+    "objectID": "people.html#leadership",
+    "href": "people.html#leadership",
+    "title": "People",
+    "section": "",
+    "text": "AI+ Academic Senior Fellow at King's College London\n    Lorenzo Nava\n    \n      Deep Learning, Remote Sensing, and Numerical Modelling for geohazard prediction and response"
+  },
+  {
+    "objectID": "people.html#co-supervised",
+    "href": "people.html#co-supervised",
+    "title": "People",
+    "section": "Co-supervised",
+    "text": "Co-supervised\n\n\n  \n    \n\n    \n      PhD at University of Padova\n      Yingbo Dong\n      \n        Deep Learning and Remote Sensing for ground motion classification and forecasting\n      \n    \n  \n\n\n  \n    \n\n    \n      MPhil at University of Cambridge\n      Sankalp Kapur\n      \n        Deep Learning and LiDAR to detect slow-moving landslides"
+  },
+  {
+    "objectID": "people.html#collaborators",
+    "href": "people.html#collaborators",
+    "title": "People",
+    "section": "Collaborators",
+    "text": "Collaborators\n\n\n\n  \n    \n\n    \n      Full Professor at University of Padova\n      Filippo Catani\n      \n        Machine learning and remote sensing applied to geohazards, monitoring and modelling of basin-scale surface processes\n      \n    \n  \n\n\n\n\n\n  \n    \n\n    \n      Assistant Professor at University of Cambridge\n      Max Van Wyk de Vries\n      \n        Multihazard, focusing on landslides, volcanoes, cryospheric hazards, and the interactions between these\n      \n    \n  \n\n\n\n\n\n  \n    \n\n    \n      Senior Researcher at Italian National Research Council\n      Alessandro Mondini\n      \n        Machine learning for landslides, optical and SAR remote sensing, rainfall-induced forecasting, and complex systems dynamics\n      \n    \n  \n\n\n\n\n\n\n  \n    \n\n    \n      Senior Researcher at Centre Tecnològic de Telecomunicacions de Catalunyay\n      Oriol Monserrat\n      \n        InSAR and analysis of satellite, airborne and terrestrial remote sensing data \n      \n    \n  \n\n\n\n\n\n  \n    \n\n    \n      Scientist at British Geological Survey\n      Alessandro Novellino\n      \n        Natural Hazards, landslides, Synthetic Aperture Radar, InSAR, Geodesy\n      \n    \n  \n\n\n\n\n\n\n\n  We are currently recruiting and open to visiting researchers and students. See Join Us."
+  },
+  {
+    "objectID": "publications.html",
+    "href": "publications.html",
+    "title": "Publications",
+    "section": "",
+    "text": "Below is a curated list of peer-reviewed publications related to AI for geohazard forecasting, modelling, and response."
+  },
+  {
+    "objectID": "publications.html#journal-articles",
+    "href": "publications.html#journal-articles",
+    "title": "Publications",
+    "section": "Journal Articles",
+    "text": "Journal Articles\n\nNava, L., Mondini, A., Bhuyan, K., Fang, C., Monserrat, O., Novellino, A., & Catani, F. (2026).\nSentinel-1 SAR-based globally distributed landslide detection by deep neural networks.\nGeoscientific Model Development, 19(1), 167–185. DOI\nDong, Y., Nava, L., & Catani, F. (2025).\nImproving ground deformation classification by integrating InSAR time series with geospatial information.\nIEEE Transactions on Geoscience and Remote Sensing, 63, 1–12. DOI\nNava, L., Kuglitsch, M. M., Selby, J., Bray, A., Kennedy, P., Lontsi, J., et al. (2025).\nIntroducing AI practitioners to international standards through online competitions.\nnpj Natural Hazards, 2(1), 102. DOI\nTang, X., Lu, Z., Fan, X., Yan, X., Yuan, X., Li, D., … Nava, L., & Catani, F. (2025).\nMamba for landslide detection: a lightweight model for mapping landslides with very high-resolution images.\nIEEE Transactions on Geoscience and Remote Sensing, 63, 1–17. DOI\nNava, L., Novellino, A., Fang, C., Bhuyan, K., Leeming, K., Alvarez, I. G., et al. (2025).\nAI-driven rapid landslide mapping following the 2024 Hualien City earthquake in Taiwan.\nNatural Hazards and Earth System Sciences, 25(7), 2371–2377. DOI\nDramsch, J., Kuglitsch, M. M., Fernández-Torres, M.-Á., Toreti, A., Albayrak, R. A., Nava, L., et al. (2025).\nExplainability can foster trust in artificial intelligence in geoscience.\nNature Geoscience, 1–3. DOI\nBhuyan, K., Rana, K., Ozturk, U., Nava, L., Rosi, A., Meena, S. R., et al. (2025).\nTowards automatic delineation of landslide source and runout.\nEngineering Geology, 345, 107866. DOI\nFang, C., Fan, X., Wang, X., Nava, L., Zhong, H., Dong, X., et al. (2024).\nA globally distributed dataset of coseismic landslide mapping via multi-source high-resolution remote sensing images.\nEarth System Science Data, 16, 4817–4858. DOI\nNava, L., Tordesillas, A., Qian, G., & Catani, F. (2024).\nDisplacement residuals reveal landslide regime shifts.\nLandslides, 1–16. DOI\nNava, L., Carraro, E., Reyes-Carmona, C., Puliero, S., Bhuyan, K., Rosi, A., et al. (2023).\nLandslide displacement forecasting using deep learning and monitoring data across selected sites.*\nLandslides, 1–19. DOI\nNava, L., Bhuyan, K., Meena, S. R., Monserrat, O., & Catani, F. (2022).\nRapid mapping of landslides on SAR data by attention U-Net.\nRemote Sensing, 14(6), 1449. DOI\nNava, L., Cuevas, M., Meena, S. R., Catani, F., & Monserrat, O. (2022).\nArtisanal and small-scale mine detection in semi-desertic areas by improved U-Net.\nIEEE Geoscience and Remote Sensing Letters, 19, 1–5. DOI\nNava, L., Monserrat, O., & Catani, F. (2022).\nImproving landslide detection on SAR data through deep learning.\nIEEE Geoscience and Remote Sensing Letters, 19, 1-5. DOI"
+  },
+  {
+    "objectID": "publications.html#book-chapters",
+    "href": "publications.html#book-chapters",
+    "title": "Publications",
+    "section": "Book Chapters",
+    "text": "Book Chapters\n\nCatani, F., Nava, L., & Bhuyan, K. (2025).\nArtificial intelligence applications for landslide mapping and monitoring on EO data.\nIn Earth Observation Applications to Landslide Mapping, Monitoring and Modeling (pp. 119–145). Elsevier. DOI"
+  },
+  {
+    "objectID": "join-us.html",
+    "href": "join-us.html",
+    "title": "Join Us",
+    "section": "",
+    "text": "We welcome collaborators and applicants interested in AI-enabled multi-hazard forecasting, early warning systems, and decision support.\nOur work combines machine learning, physical modelling, and uncertainty analysis to support risk-informed decisions for natural hazards."
+  },
+  {
+    "objectID": "join-us.html#research-themes",
+    "href": "join-us.html#research-themes",
+    "title": "Join Us",
+    "section": "Research themes",
+    "text": "Research themes\n\nMulti-hazard and cascading event modelling\nMachine learning for hazard detection and forecasting\nUncertainty-aware prediction and evaluation\nEnd-to-end warning pipelines and decision support\nOpen tools, reproducible science, and real-world impact"
+  },
+  {
+    "objectID": "join-us.html#opportunities",
+    "href": "join-us.html#opportunities",
+    "title": "Join Us",
+    "section": "Opportunities",
+    "text": "Opportunities\n\nPhD / MSc students\nApplicants with a strong quantitative background (e.g. machine learning, statistics, physics, engineering, or geoscience) and an interest in hazards and resilience.\n\n\nPostdoctoral researchers\nResearchers with evidence of independent work, strong writing, and a clear research agenda aligned with the lab’s themes.\nWe are happy to support applications to competitive postdoctoral fellowships, including:\n\n  \n    \n      Marie Skłodowska-Curie Postdoctoral Fellowships\n    \n  \n  \n    \n      Leverhulme Early Career Fellowships\n    \n  \n  \n    \n      1851 Research Fellowships\n    \n  \n  \n    \n      Newton International Fellowships\n    \n  \n  \n    \n      Royal Society or UKRI-funded schemes\n    \n    (where applicable)\n  \n\n\n\nResearch software / engineering\nResearchers with experience in machine learning tooling, data pipelines, and reproducible research."
+  },
+  {
+    "objectID": "join-us.html#how-to-get-in-touch",
+    "href": "join-us.html#how-to-get-in-touch",
+    "title": "Join Us",
+    "section": "How to get in touch",
+    "text": "How to get in touch\nPlease email lorenava996@gmail.com with:\n\na short paragraph describing your interest,\na CV,\n(optional) links to publications or GitHub,\n(optional) one or two project ideas."
+  },
+  {
+    "objectID": "join-us.html#funding",
+    "href": "join-us.html#funding",
+    "title": "Join Us",
+    "section": "Funding",
+    "text": "Funding\nIf you already hold funding or are planning to apply for a specific scheme, please mention the programme and expected timelines."
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Research",
+    "section": "",
+    "text": "Core Research Themes\n\n\n\n\n  \n  \n    \n      \n    \n\n    \n      Improving Landslide Disaster Response using AI, SAR, and Multispectral Data\n    \n\n    \n      Development of AI-driven frameworks to support rapid disaster response,\n      combining SAR and multispectral satellite data for landslide detection,\n      mapping, and situational awareness.\n    \n\n    \n      AI\n      SAR\n      Remote Sensing\n      Disaster Response\n    \n  \n\n  \n  \n  \n    \n  \n\n    \n      Neural Networks for Predicting Cascading Hazard Runouts\n    \n\n    \n      Neural network models to predict runout distances and spatial impact\n      of cascading hazards, including landslide–debris flow and\n      multi-process gravitational mass movements.\n    \n\n    \n      Neural Networks\n      Cascading Hazards\n      Runout Modelling\n      Multihazard\n    \n  \n\n  \n  \n    \n      \n    \n\n    \n      Forecasting Landslide Displacement and Failure\n    \n\n    \n      Data-driven modelling of landslide displacement and time of failure using\n      machine learning and hybrid physical–statistical approaches.\n    \n\n    \n      Time Series\n      Forecasting\n      Landslides\n      Uncertainty\n    \n  \n\n\nCo-supervised Student Projects\n\n\n\n\n\n  \n    \n  \n\n  \n    Neural Networks to Classify Ground-Motion Processes at Scale\n  \n\n  \n    Neural network models to classify ground-motion processes from InSAR\n    time series (e.g., subsidence, landslides), supporting\n    rapid interpretation, and downstream hazard assessment.\n  \n\n  \n    Student: Yingbo Dong,\n    University of Padova - MISSLab\n  \n\n  \n    Neural Networks\n    Classification\n    Time Series\n  \n\n\n\n\n\n  \n    \n  \n\n  \n    Neural Networks and LiDAR for Landslide Detection in the UK\n  \n\n  \n    Development of neural network models for landslide detection using\n    high-resolution LiDAR-derived terrain attributes, with applications to\n    regional-scale mapping and hazard assessment across the United Kingdom.\n  \n\n  \n    Student: Sankalp Kapur,\n    University of Cambridge - CoMHaz\n  \n\n  \n    Neural Networks\n    LiDAR\n    Landslide Detection"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Nava Group",
+    "section": "",
+    "text": "AI-enabled geohazard forecasting, early warning systems, and response\n      \n\n      \n        Research\n        Join us"
+  },
+  {
+    "objectID": "index.html#opportunities",
+    "href": "index.html#opportunities",
+    "title": "Nava Group",
+    "section": "Opportunities",
+    "text": "Opportunities\n\nInterested in a PhD / postdoc / collaboration? See Join Us.\nFor enquiries: lorenava996@gmail.com\n\n\n  \n\n    \n      Nava Group\n      King’s College London\n      King’s Institute for Artificial Intelligence\n      Department of Geography\n    \n\n    \n      Explore\n      \n        Research\n        Publications\n        People\n        Join Us\n      \n    \n\n    \n      Contact\n      \n        lorenava996@gmail.com\n      \n      \n        GitHub\n      \n    \n\n  \n\n  \n    ©  Nava Group\n\n    \n\n    •\n    Built with Quarto\n    •\n    Hosted on GitHub Pages"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "I am an AI+ Academic Senior Fellow at King’s College London, working on the use of artificial intelligence for disaster forecasting, modelling, and response.\nMy research focuses on interacting natural hazards, with an emphasis on AI-enabled forecasting, early warning systems, and decision support for disaster risk reduction. I develop machine learning approaches combined with system-level modelling to better understand cascading impacts, uncertainty, and operational constraints in real-world settings.\nMy work sits at the interface of artificial intelligence, Earth systems, and disaster risk, spanning the King’s Institute for Artificial Intelligence and the Department of Geography.\n\nResearch themes\n\nAI-enabled multi-hazard forecasting and early warning\n\nModelling of cascading and compound disasters\n\nUncertainty-aware prediction and evaluation\n\nDecision support for disaster response and adaptation\n\n\n\nContact\n\nEmail: lorenzo.nava@kcl.ac.uk\n\nLocation: King’s College London"
+  }
+]

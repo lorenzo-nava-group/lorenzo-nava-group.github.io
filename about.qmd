@@ -1,0 +1,19 @@
+---
+title: About
+---
+
+I am an AI+ Academic Senior Fellow at **King’s College London**, working on the use of **artificial intelligence for disaster forecasting, modelling, and response**.
+
+My research focuses on **interacting natural hazards**, with an emphasis on **AI-enabled forecasting**, **early warning systems**, and **decision support for disaster risk reduction**. I develop machine learning approaches combined with system-level modelling to better understand cascading impacts, uncertainty, and operational constraints in real-world settings.
+
+My work sits at the interface of **artificial intelligence, Earth systems, and disaster risk**, spanning the **King’s Institute for Artificial Intelligence** and the **Department of Geography**.
+
+### Research themes
+- AI-enabled multi-hazard forecasting and early warning  
+- Modelling of cascading and compound disasters  
+- Uncertainty-aware prediction and evaluation  
+- Decision support for disaster response and adaptation  
+
+### Contact
+- Email: **lorenzo.nava@kcl.ac.uk**  
+- Location: King’s College London

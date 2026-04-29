@@ -1,0 +1,76 @@
+---
+title: Join Us
+---
+
+We welcome collaborators and applicants interested in **AI-enabled multi-hazard forecasting,
+early warning systems, and decision support**.
+
+Our work combines machine learning, physical modelling, and uncertainty analysis to support
+risk-informed decisions for natural hazards.
+
+## Research themes
+
+- Multi-hazard and cascading event modelling
+- Machine learning for hazard detection and forecasting
+- Uncertainty-aware prediction and evaluation
+- End-to-end warning pipelines and decision support
+- Open tools, reproducible science, and real-world impact
+
+## Opportunities
+
+### PhD / MSc students
+Applicants with a strong quantitative background (e.g. machine learning, statistics, physics,
+engineering, or geoscience) and an interest in hazards and resilience.
+
+### Postdoctoral researchers
+Researchers with evidence of independent work, strong writing, and a clear research agenda
+aligned with the lab's themes.
+
+We are happy to support applications to competitive postdoctoral fellowships, including:
+
+```{=html}
+<ul>
+  <li>
+    <a href="https://marie-sklodowska-curie-actions.ec.europa.eu/actions/postdoctoral-fellowships" target="_blank" rel="noopener">
+      Marie Skłodowska-Curie Postdoctoral Fellowships
+    </a>
+  </li>
+  <li>
+    <a href="https://www.leverhulme.ac.uk/early-career-fellowships" target="_blank" rel="noopener">
+      Leverhulme Early Career Fellowships
+    </a>
+  </li>
+  <li>
+    <a href="https://royalcommission1851.org/fellowships/research-fellowships" target="_blank" rel="noopener">
+      1851 Research Fellowships
+    </a>
+  </li>
+  <li>
+    <a href="https://royalsociety.org/grants-schemes-awards/grants/newton-international/" target="_blank" rel="noopener">
+      Newton International Fellowships
+    </a>
+  </li>
+  <li>
+    <a href="https://www.ukri.org/opportunity/" target="_blank" rel="noopener">
+      Royal Society or UKRI-funded schemes
+    </a>
+    (where applicable)
+  </li>
+</ul>
+```
+
+### Research software / engineering
+Researchers with experience in machine learning tooling, data pipelines, and reproducible research.
+
+## How to get in touch
+Please email **lorenava996@gmail.com** with:
+
+- a short paragraph describing your interest,
+- a CV,
+- (optional) links to publications or GitHub,
+- (optional) one or two project ideas.
+
+## Funding
+If you already hold funding or are planning to apply for a specific scheme, please mention
+the programme and expected timelines.
+
