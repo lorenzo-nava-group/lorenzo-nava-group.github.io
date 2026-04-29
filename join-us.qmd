@@ -63,7 +63,7 @@ We are happy to support applications to competitive postdoctoral fellowships, in
 Researchers with experience in machine learning tooling, data pipelines, and reproducible research.
 
 ## How to get in touch
-Please email **lorenava996@gmail.com** with:
+Please email **lorenzo.nava@kcl.ac.uk** with:
 
 - a short paragraph describing your interest,
 - a CV,
