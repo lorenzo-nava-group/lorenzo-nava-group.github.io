@@ -57,7 +57,7 @@ format:
 ## Opportunities
 
 - Interested in a PhD / postdoc / collaboration? See [Join Us](join-us.qmd).
-- For enquiries: **lorenava996@gmail.com**
+- For enquiries: **lorenzo.nava@kcl.ac.uk**
 
 ```{=html}
 <footer class="site-footer" role="contentinfo">
@@ -86,7 +86,7 @@ format:
         <a class="footer-link" href="mailto:lorenzo.nava@kcl.ac.uk">lorenzo.nava@kcl.ac.uk</a>
       </address>
       <div class="footer-text">
-        <a class="footer-link" href="https://github.com/hazard-systems-rg" target="_blank" rel="noopener">GitHub</a>
+        <a class="footer-link" href="https://github.com/lorenzo-nava-group" target="_blank" rel="noopener">GitHub</a>
       </div>
     </div>
 
