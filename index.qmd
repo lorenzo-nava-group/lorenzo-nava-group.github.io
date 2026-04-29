@@ -16,8 +16,8 @@ format:
     <div class="hero-inner">
 
       <h1 class="hero-title">
-        <span class="t-strong">Hazard Systems</span>
-        <span class="t-soft">Research Lab</span>
+        <span class="t-strong">Nava</span>
+        <span class="t-soft">Group</span>
       </h1>
 
       <p class="hero-tagline">
